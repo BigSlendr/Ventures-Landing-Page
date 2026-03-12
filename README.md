@@ -8,7 +8,7 @@ This project is a public-facing digital hub for Michael Marino's business ecosys
 
 ## Included Ventures
 
-- Avédon Collection — https://avedonco.com
+- Avédon Collective — https://avedonco.com
 - MT Mug — https://mtmug.com
 - Bobby Black NYC — https://bobbyblacknyc.com
 - Staten News — https://statennews.com
