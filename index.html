@@ -3,24 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Michael Marino | Brand Ecosystem</title>
+    <title>Michael Marino | Digital Ecosystem</title>
     <meta
       name="description"
-      content="Michael Marino's connected portfolio of ventures spanning fashion, media, coffee, commerce, and digital infrastructure."
-    />
-    <meta
-      name="keywords"
-      content="Michael Marino, brand ecosystem, ventures, luxury, media, commerce, fashion"
+      content="A connected portfolio of ventures spanning fashion, coffee, commerce, media, and digital infrastructure."
     />
     <meta name="author" content="Michael Marino" />
-    <meta property="og:title" content="Michael Marino — The Network" />
+    <meta property="og:title" content="Michael Marino | Digital Ecosystem" />
     <meta
       property="og:description"
-      content="A connected brand system across fashion, media, coffee, commerce, and digital infrastructure."
+      content="Explore Michael Marino's connected network of brands, media, and digital infrastructure."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://your-domain.com" />
-    <meta name="theme-color" content="#0a0b10" />
+    <meta property="og:image" content="https://your-domain.com/images/og-image.jpg" />
+    <meta name="theme-color" content="#090b11" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -34,101 +32,128 @@
 
     <main class="container">
       <header class="hero fade-up" id="top">
-        <p class="kicker">Founder Command Center</p>
+        <p class="kicker">Founder Brand Hub</p>
         <h1>Enter the Ecosystem</h1>
-        <p class="subtitle">
-          Michael Marino — Brands, Media, Commerce, Infrastructure.
-        </p>
         <p class="description">
-          A connected portfolio of ventures spanning fashion, media, coffee,
-          commerce, and digital infrastructure.
+          A connected portfolio of ventures spanning fashion, coffee, commerce,
+          media, and digital infrastructure.
         </p>
       </header>
 
       <section class="ecosystem fade-up" aria-labelledby="ecosystem-title">
-        <div class="section-head">
-          <h2 id="ecosystem-title">The Network</h2>
-          <p>
-            Each venture is designed to stand alone while strengthening the
-            larger system through shared standards, storytelling, and execution.
-          </p>
-        </div>
+        <h2 id="ecosystem-title">Connected Brands</h2>
 
-        <div class="card-grid">
+        <!--
+          Brand card editing guide:
+          - Update href for each destination URL
+          - Update .brand-name text
+          - Update .brand-meta descriptor text
+          - Update image src to the corresponding logo file in /images
+        -->
+        <nav class="brand-stack" aria-label="Brand ecosystem links">
           <a
-            class="venture-card"
+            class="brand-card"
             href="https://avedonco.com"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Visit Avédon Collection"
           >
-            <span class="icon">◆</span>
-            <h3>Avédon Collection</h3>
-            <p>Luxury fashion house focused on statement essentials.</p>
-            <span class="visit">Visit Site ↗</span>
+            <span class="logo-wrap" aria-hidden="true">
+              <img src="images/AvedonLogo.png" alt="" loading="lazy" />
+            </span>
+            <span class="brand-content">
+              <span class="brand-name">Avédon Collection</span>
+              <span class="brand-meta">Fashion, design, and brand vision</span>
+            </span>
+            <span class="brand-arrow" aria-hidden="true">→</span>
           </a>
 
           <a
-            class="venture-card"
+            class="brand-card"
             href="https://mtmug.com"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Visit MT Mug"
           >
-            <span class="icon">☕</span>
-            <h3>MT Mug</h3>
-            <p>Premium coffee brand blending ritual, design, and culture.</p>
-            <span class="visit">Visit Site ↗</span>
+            <span class="logo-wrap" aria-hidden="true">
+              <img src="images/MTMugLogo.png" alt="" loading="lazy" />
+            </span>
+            <span class="brand-content">
+              <span class="brand-name">MT Mug</span>
+              <span class="brand-meta">Coffee, lifestyle, and borough culture</span>
+            </span>
+            <span class="brand-arrow" aria-hidden="true">→</span>
           </a>
 
           <a
-            class="venture-card"
+            class="brand-card"
             href="https://bobbyblacknyc.com"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Visit Bobby Black NYC"
           >
-            <span class="icon">✦</span>
-            <h3>Bobby Black NYC</h3>
-            <p>New York-forward brand expression rooted in identity and edge.</p>
-            <span class="visit">Visit Site ↗</span>
+            <span class="logo-wrap" aria-hidden="true">
+              <img src="images/BBLogo.png" alt="" loading="lazy" />
+            </span>
+            <span class="brand-content">
+              <span class="brand-name">Bobby Black NYC</span>
+              <span class="brand-meta">Product, culture, and exclusive drops</span>
+            </span>
+            <span class="brand-arrow" aria-hidden="true">→</span>
           </a>
 
           <a
-            class="venture-card"
+            class="brand-card"
             href="https://statennews.com"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Visit Staten News"
           >
-            <span class="icon">◉</span>
-            <h3>Staten News</h3>
-            <p>Independent media voice delivering local insight and momentum.</p>
-            <span class="visit">Visit Site ↗</span>
+            <span class="logo-wrap" aria-hidden="true">
+              <img src="images/StatenNewsLogo.png" alt="" loading="lazy" />
+            </span>
+            <span class="brand-content">
+              <span class="brand-name">Staten News</span>
+              <span class="brand-meta">Media, stories, and local perspective</span>
+            </span>
+            <span class="brand-arrow" aria-hidden="true">→</span>
           </a>
 
           <a
-            class="venture-card"
+            class="brand-card"
             href="https://bymamstudio.com"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Visit By MAM Studio"
           >
-            <span class="icon">▣</span>
-            <h3>By MAM Studio</h3>
-            <p>Creative and digital studio building elegant brand systems.</p>
-            <span class="visit">Visit Site ↗</span>
+            <span class="logo-wrap" aria-hidden="true">
+              <img src="images/MAMLogo.png" alt="" loading="lazy" />
+            </span>
+            <span class="brand-content">
+              <span class="brand-name">By MAM Studio</span>
+              <span class="brand-meta">Brand architecture and web infrastructure</span>
+            </span>
+            <span class="brand-arrow" aria-hidden="true">→</span>
           </a>
-        </div>
+        </nav>
       </section>
     </main>
 
-    <footer class="footer fade-up" aria-label="Footer">
-      <p>© <span id="year"></span> Michael Marino. All rights reserved.</p>
+    <footer class="footer fade-up" aria-label="Footer social links">
+      <p>© <span id="year"></span> Michael Marino</p>
       <nav aria-label="Social links">
-        <a href="#" aria-label="Email">Email</a>
-        <a href="#" aria-label="Instagram">Instagram</a>
-        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        <a
+          href="https://www.linkedin.com/in/michael-anthony-marino-40aba999/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >LinkedIn</a
+        >
+        <a
+          href="https://instagram.com/avedonco_"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Instagram</a
+        >
       </nav>
     </footer>
 
