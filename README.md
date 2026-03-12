@@ -1,51 +1,59 @@
-# Michael Marino — Ecosystem Landing Page
+# Michael Marino — Digital Ecosystem Landing Page
 
-A premium, standalone, dark-themed landing page built with static HTML, CSS, and JavaScript.
+A premium, dark, mobile-first standalone landing page built for GitHub Pages.
 
 ## Overview
 
-This project is a public-facing digital hub for Michael Marino's business ecosystem. It presents a connected network of ventures with a polished, mobile-first layout and subtle interaction design.
+This repo contains a single-page founder hub that centralizes Michael Marino's brand ecosystem in one polished destination.
 
-## Included Ventures
+## Brand Links Included
 
-- Avédon Collective — https://avedonco.com
+- Avédon Collection — https://avedonco.com
 - MT Mug — https://mtmug.com
 - Bobby Black NYC — https://bobbyblacknyc.com
 - Staten News — https://statennews.com
 - By MAM Studio — https://bymamstudio.com
 
-## Features
+## Social Links Included
 
-- Bold hero section with premium typography
-- Ecosystem narrative and brand positioning copy
-- Interactive, card-based external links for each venture
-- Smooth fade-up entrance animations
-- Dark luxury visual language with muted accent highlights
-- Responsive mobile-first structure
-- SEO-friendly meta tags in `index.html`
-- Footer placeholders for contact and social links
+- LinkedIn — https://www.linkedin.com/in/michael-anthony-marino-40aba999/
+- Instagram — https://instagram.com/avedonco_
 
-## File Structure
+## Tech Stack
 
-- `index.html` — semantic page structure and content
-- `style.css` — theme, layout, responsive behavior, and animations
-- `script.js` — dynamic year and scroll-triggered reveal effects
+- `index.html`
+- `style.css`
+- `script.js`
+
+No framework or build tooling is required.
 
 ## Local Preview
 
-Open `index.html` directly in your browser, or run a simple local server:
+Open `index.html` directly, or run:
 
 ```bash
 python3 -m http.server 4173
 ```
 
-Then visit `http://localhost:4173`.
+Then visit: `http://localhost:4173`
 
-## GitHub Pages Deployment
+## Deployment (GitHub Pages)
 
-1. Push this repository to GitHub.
-2. In repository settings, open **Pages**.
-3. Set source to the main branch (root).
-4. Save and wait for deployment.
+1. Push the repository to GitHub.
+2. Open **Settings → Pages** in the repository.
+3. Under **Build and deployment**, choose:
+   - **Source:** Deploy from a branch
+   - **Branch:** `main` (or your default branch), `/ (root)`
+4. Save changes.
+5. Wait for the Pages deployment to complete and open the generated URL.
 
-Your landing page will be live at your GitHub Pages URL.
+## Editing Brand Cards
+
+In `index.html`, each brand card is a single `<a class="brand-card">` block with:
+
+- `href` for the destination URL
+- `.logo-wrap img` for logo path
+- `.brand-name` for title
+- `.brand-meta` for descriptor
+
+This makes updates easy without touching JavaScript.
